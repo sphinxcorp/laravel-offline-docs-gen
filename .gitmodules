@@ -1,0 +1,6 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/laravel/docs.git
+[submodule "templates"]
+	path = templates
+	url = https://github.com/jgm/pandoc-templates.git
