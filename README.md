@@ -41,7 +41,7 @@ To control the output of generated files, this tool uses [pandoc templates](http
 
 #For the impatient
 
-If you don't want to build the document on your own, or just want to look at the default build, you can [download](raw/master/l4docs.pdf) the deafult pdf file directly from this repository.
+If you don't want to build the document on your own, or just want to look at the default build, you can [download](https://github.com/sphinxcorp/laravel-offline-docs-gen/raw/master/l4docs.pdf) the deafult pdf file directly from this repository.
 
 #Contributing
 
