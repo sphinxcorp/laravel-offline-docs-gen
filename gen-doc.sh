@@ -30,7 +30,7 @@ PANDOC_ARGS="$*"
 git submodule init && git submodule update
 rm -rf build && mkdir build
 INDEX=`cat docs/documentation.md | grep "/docs/" | sed -e "s#.*/##g" -e "s#)##g"`
-DOC_FILES=""
+DOC_FILES="cover.md"
 PHP_EXEC=`which php`
 for f in $INDEX; do
 	DOC_FILE="$f.md"
@@ -43,4 +43,4 @@ pandoc $PANDOC_ARGS -s --data-dir=./templates/ --template=default -f markdown_ph
 echo "cleaning up temporary files"
 rm -rf build/
 echo "done"
-echo "creayed offline document is available in `pwd`/$OUT_FILE"
+echo "created offline document is available in `pwd`/$OUT_FILE"
