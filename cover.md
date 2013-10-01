@@ -1,5 +1,5 @@
 #LARAVEL 4
-![Laravel](img/laravel-logo.png)
+![Laravel](images/laravel-logo.png)
 
 
 
@@ -7,4 +7,4 @@
 
 ###JUST GOT FOUR TIMES BETTER.
 
-![Laravel](img/laravel-t-shirt.png)
+![Laravel](images/laravel-t-shirt.png)
