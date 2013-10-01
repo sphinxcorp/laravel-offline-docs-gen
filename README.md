@@ -39,6 +39,10 @@ Additionally you can pass any [options](http://johnmacfarlane.net/pandoc/README.
 
 To control the output of generated files, this tool uses [pandoc templates](http://johnmacfarlane.net/pandoc/README.html#templates) some default templates available from https://github.com/jgm/pandoc-templates as a git submodule. If you have the knowledge of customizing those templates, feel free to hack & twek the existing templates to meet your needs. Also for a comprehensive documentation of pandoc, please refer to the [github repo](https://github.com/jgm/pandoc) for pandoc.
 
+#For the impatient
+
+If you don't want to build the document on your own, or just want to look at the default build, you can [download](raw/master/l4docs.pdf) the deafult pdf file directly from this repository.
+
 #Contributing
 
 If you find any bug, please file an issue in github issue tracker or fork & send pull request with fixes.
